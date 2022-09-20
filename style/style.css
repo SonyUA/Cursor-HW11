@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../img/Avicii-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+p {
+    width: 300px;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.323);
+}
+span {
+    font-size: 20px;
+}
+.main {
+    position: absolute;
+    bottom: 5%;
+    width: 50%;
+    left: 25%;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #0070ffc9, #fff30096);
+    background-color: #ffffff85;
+}
+.main__btn {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background-color: #000000d6;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.active,
+.main__btn :focus {
+    background: linear-gradient(#59c4ec, #b22fca);
+    color: #15061285;
+    font-weight: bold;
+}
+.main__btn:hover {
+    color: #df0bb585;
+    font-size: 20px;
+    background: linear-gradient(#b22fca, #59c4ec);
+}
+.main__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+    flex-wrap: wrap;
+}
+.main__bottom {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0px 10px 10px 10px;
+}
