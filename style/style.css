@@ -64,3 +64,10 @@ span {
     flex-wrap: wrap;
     margin: 0px 10px 10px 10px;
 }
+@media (max-width: 480px) {
+    .main__btn {
+        width: 40px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
